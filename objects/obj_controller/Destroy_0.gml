@@ -1,0 +1,2 @@
+audio_group_stop_all(ag_sounds)
+room_goto(rm_main_menu)

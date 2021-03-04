@@ -1,0 +1,10 @@
+button_x = 0
+button_y = 0
+button_sprite = spr_checkbox
+button_width = sprite_get_width(button_sprite)
+button_height = sprite_get_height(button_sprite)
+button_script = nothing
+image_index = 0
+image_speed = 0
+button_var = false
+mouse_lock = false

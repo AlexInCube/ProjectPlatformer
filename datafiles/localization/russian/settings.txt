@@ -1,0 +1,33 @@
+{
+	"apply_settings":"Принять",
+	"decline_settings":"Отменить",
+	"set_to_default":"По умолчанию",
+	
+	"audio_settings":"Аудио",
+	"master_volume":"Общая громкость",
+	"music_volume":"Громкость музыки",
+	"sound_volume":"Громкость звука",
+	
+	"graphics_settings":"Графика",
+	"fullscreen_mode":"Полноэкранный режим",
+	"resolution":"Разрешение экрана",
+	"fps_limit":"Ограничение кадров в секунду",
+	"v_sync_mode":"Вертикальная синхронизация",
+	
+	"interface_settings":"Интерфейс",
+	"gui_size":"Размер интерфейса",
+	"language":"Язык",
+	"russian_language":"Русский",
+	"english_language":"Английский",
+	
+	"game_settings":"Игра",
+	
+	"another_settings":"Остальное",
+	"use_system_cursor":"Использовать системный курсор",
+	
+	
+	"controls_settings":"Управление",
+	"up_key":"Прыжок",
+	"left_key":"Передвижение влево",
+	"right_key":"Передвижение направо",
+}
