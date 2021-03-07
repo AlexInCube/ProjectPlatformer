@@ -128,8 +128,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1ed057cf-7c3d-46d5-83da-ae3cce0225f1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Movers",
+    "path": "folders/Objects/Game Objects/Movers.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mover_up",

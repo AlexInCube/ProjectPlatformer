@@ -85,7 +85,7 @@
   ],
   "parent": {
     "name": "Main Menu",
-    "path": "folders/Objects/Main Menu.yy",
+    "path": "folders/Objects/Controllers/Main Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_buttonmenu",

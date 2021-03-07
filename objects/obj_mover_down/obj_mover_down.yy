@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_jumpable",
+    "path": "objects/obj_jumpable/obj_jumpable.yy",
+  },
   "physicsObject": true,
   "physicsSensor": true,
   "physicsShape": 1,
@@ -29,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Movers",
+    "path": "folders/Objects/Game Objects/Movers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mover_down",

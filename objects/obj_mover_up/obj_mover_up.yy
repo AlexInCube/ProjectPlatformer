@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_wall",
-    "path": "objects/obj_wall/obj_wall.yy",
+    "name": "obj_jumpable",
+    "path": "objects/obj_jumpable/obj_jumpable.yy",
   },
   "physicsObject": true,
   "physicsSensor": true,
@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Movers",
+    "path": "folders/Objects/Game Objects/Movers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mover_up",

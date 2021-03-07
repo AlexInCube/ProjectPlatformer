@@ -23,10 +23,12 @@ if !audio_group_is_loaded(ag_sounds)
    }
 
 localization_load()
-
 setup_level_names()
 
 alarm[0] = 1
 
+global.progress = 0
+global.deaths = 0
+load_game()
 
 

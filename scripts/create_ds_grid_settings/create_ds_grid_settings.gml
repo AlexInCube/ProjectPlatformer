@@ -34,7 +34,6 @@ function create_ds_grid_settings() {
 		[find_keyword("fps_limit"),				settings_element_type.slider,change_game_speed,[global.settings.video.game_speed,["video","game_speed"]],10,300,10],
 		
 		[find_keyword("interface_settings"),	settings_element_type.title],
-		[find_keyword("gui_size"),				settings_element_type.slider, change_gui_size_settings,[global.settings.interface.guisize,["interface","guisize"]],0.5,1.3,0.1],
 		[find_keyword("language"),				settings_element_type.shift, change_language,global.settings.interface.language,[find_keyword("russian_language"),find_keyword("english_language")]],
 		//[find_keyword("another_settings"),		settings_element_type.title],
 		//[find_keyword("autosave_limit"),		settings_element_type.slider, change_save_limit,[global.settings.another.autosaves_limit,["another","autosaves_limit"]],1,50,5],

@@ -17,6 +17,6 @@ control_jump = global.settings.controls.key_up;
 // Disable this if you're making a face dragging game.
 phy_fixed_rotation=true;
 
-depth = -1
+depth = -2
 
 mover_speed = 8

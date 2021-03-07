@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"ddac5e2c-71db-4967-8bad-f9d3242632b7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Gravity Changers",
+    "path": "folders/Objects/Game Objects/Gravity Changers.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gravity_changer_left",

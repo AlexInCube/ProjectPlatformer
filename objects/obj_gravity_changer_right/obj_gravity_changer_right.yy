@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Gravity Changers",
+    "path": "folders/Objects/Game Objects/Gravity Changers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_gravity_changer_right",
