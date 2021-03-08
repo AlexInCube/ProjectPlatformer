@@ -69,7 +69,6 @@ function load_settings(){
 
 function setup_level_names(){
 	global.level_names = ds_map_create()
-
 	level_add_name(rm_lvl1,"Обучение",1)
 	level_add_name(rm_lvl2,"Вступление",2)
 	level_add_name(rm_lvl3,"Прыжки",3)

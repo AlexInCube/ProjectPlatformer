@@ -1,1 +1,1 @@
-new_room = rm_lvl8
+new_room = rm_lvl7
