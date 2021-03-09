@@ -31,8 +31,9 @@ function create_ds_grid_settings() {
 		[find_keyword("resolution"),			settings_element_type.shift, change_resolution_settings,sr,resolution_array],
 		[find_keyword("fullscreen_mode"),		settings_element_type.toggle, change_window_mode,global.settings.video.fullscreen],
 		[find_keyword("v_sync_mode"),			settings_element_type.toggle, change_v_sync_mode,global.settings.video.v_sync],
-		[find_keyword("fps_limit"),				settings_element_type.slider,change_game_speed,[global.settings.video.game_speed,["video","game_speed"]],10,300,10],
-		
+		//[find_keyword("fps_limit"),				settings_element_type.slider,change_game_speed,[global.settings.video.game_speed,["video","game_speed"]],10,300,10],
+		[find_keyword("sprite_animation"),		settings_element_type.toggle,change_sprite_animation,global.settings.video.sprite_animation],
+		[find_keyword("room_transition"),		settings_element_type.toggle,change_room_transition,global.settings.video.room_transition],
 		[find_keyword("interface_settings"),	settings_element_type.title],
 		[find_keyword("language"),				settings_element_type.shift, change_language,global.settings.interface.language,[find_keyword("russian_language"),find_keyword("english_language")]],
 		//[find_keyword("another_settings"),		settings_element_type.title],

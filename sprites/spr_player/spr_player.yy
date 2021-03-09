@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"3075b6d6-b6c4-40d5-9ca0-9803e84aec21","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Game Objects/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player",

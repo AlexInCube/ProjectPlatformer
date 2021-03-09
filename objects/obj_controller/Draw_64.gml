@@ -25,4 +25,4 @@ for(var i = 0; i < 25; i++){
 }
 draw_set_color(c_white)
 //Draw lvl number and lvl name
-draw_text_shadow(block_xx+5,block_yy+10,lvl_info_txt,fnt_main,2,c_black,c_white,1)
+draw_text_shadow(block_xx+5,block_yy,lvl_info_txt,fnt_main,2,c_black,c_white,1)

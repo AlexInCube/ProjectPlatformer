@@ -17,4 +17,4 @@ global.init_room = rm_lvl1
 lvl_spr = spr_button_lvl_select
 lvl_spr_size = sprite_get_width(lvl_spr)
 cell_space = 10
-ds_map = global.level_names
+ds_grid = global.level_playlist

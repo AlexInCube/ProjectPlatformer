@@ -1,0 +1,6 @@
+draw_set_halign(fa_middle)
+draw_set_valign(fa_center)
+if timer >= 30 draw_text_shadow(GUIWIDTH/2,100,game_complete_word,fnt_large,2,c_gray,c_ltgray,1)
+if timer >= 90 draw_text_shadow(GUIWIDTH/2,200,number_of_death_word+string(global.deaths),fnt_large,2,c_gray,c_ltgray,1)
+if timer >= 150 draw_text_shadow(GUIWIDTH/2,300,time_of_walkthrough_word+get_formatted_date(global.time.hours)+":"+get_formatted_date(global.time.minutes)+":"+get_formatted_date(global.time.seconds),fnt_large,2,c_gray,c_ltgray,1)
+if timer >= 300 draw_text_shadow(GUIWIDTH/2,GUIHEIGHT-40,press_any_button_to_back_word,fnt_small,1,c_gray,c_ltgray,1)

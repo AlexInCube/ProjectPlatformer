@@ -1,7 +1,7 @@
 {
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ProjectPlatformer",
+    "path": "ProjectPlatformer.yyp",
   },
   "resourceVersion": "1.1",
   "name": "TODO",

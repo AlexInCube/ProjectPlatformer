@@ -14,7 +14,10 @@ function level_add_name(rm_index,rm_name,rm_number){
 		room_name : rm_name,
 		room_number : rm_number
 	}
-	ds_map_add(global.level_names,room_get_name(rm_index),info)
+	var playlist = global.level_playlist
+	ds_grid_add(playlist,0,ds_grid_height(playlist)-1,room_get_name(rm_index))
+	ds_grid_add(playlist,1,ds_grid_height(playlist)-1,info)
+	ds_grid_resize(playlist,2,ds_grid_height(playlist)+1)
 }
 
 function draw_text_shadow(_x, _y, _string, _font, _shadow_size, _shadow_colour, _text_colour, _alpha) {
@@ -55,5 +58,20 @@ function get_formatted_date(number){
 		return string(0)+number
 	}else{
 		return number
+	}
+}
+
+function transition_create_effect(effect){
+	with instance_create_layer(0,0,"Instances",obj_transition_effect){
+		self.effect = effect
+		switch(self.effect){
+			case transition_type.fade_in:
+				fade = 0
+			break
+			
+			case transition_type.fade_out:
+				fade = 1
+			break
+		}
 	}
 }

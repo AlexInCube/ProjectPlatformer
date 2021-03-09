@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "ProjectPlatformer",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "0.0.2.1",
+  "option_windows_version": "0.0.3.0",
   "option_windows_company_info": "AlexInCube",
   "option_windows_product_info": "ProjectPlatformer",
   "option_windows_copyright_info": "AlexInCube 2021",

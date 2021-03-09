@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"6a9fa9e9-3eff-462b-9ce4-fc5b391fa488","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a9fa9e9-3eff-462b-9ce4-fc5b391fa488","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"LayerId":{"name":"91e704f1-6435-4091-8c61-3a15c295d30a","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"6a9fa9e9-3eff-462b-9ce4-fc5b391fa488","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"LayerId":{"name":"0431cd72-4fc9-491f-87ed-889ead1dacc1","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"6a9fa9e9-3eff-462b-9ce4-fc5b391fa488","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"LayerId":{"name":"9fdc9d8c-eb01-4ef4-b528-4197d8d0dd54","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"6a9fa9e9-3eff-462b-9ce4-fc5b391fa488","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"LayerId":{"name":"91e704f1-6435-4091-8c61-3a15c295d30a","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_intro_game_by","path":"sprites/spr_intro_game_by/spr_intro_game_by.yy",},"resourceVersion":"1.0","name":"6a9fa9e9-3eff-462b-9ce4-fc5b391fa488","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

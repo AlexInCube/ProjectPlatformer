@@ -13,6 +13,8 @@
 	"resolution":"Разрешение экрана",
 	"fps_limit":"Ограничение кадров в секунду",
 	"v_sync_mode":"Вертикальная синхронизация",
+	"sprite_animation":"Анимации текстур",
+	"room_transition":"Эффекты перехода между уровнями",
 	
 	"interface_settings":"Интерфейс",
 	"language":"Язык",

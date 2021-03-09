@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Objects",
-    "path": "folders/Objects/Game Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Game Objects/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player",

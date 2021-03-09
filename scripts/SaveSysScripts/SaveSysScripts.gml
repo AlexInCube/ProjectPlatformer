@@ -1,7 +1,8 @@
 function save_game(){
 	var save_data = {
 		game_progress: global.progress,
-		death_count: global.deaths
+		death_count: global.deaths,
+		time: global.time
 	}
 	var save_string = json_stringify(save_data)
 
@@ -20,8 +21,23 @@ function load_game() {
 		var save_string = file_text_read_string(file)
 		file_text_close(file)
 		var save_data = json_parse(save_string)
-	
-		global.progress = save_data.game_progress
-		global.deaths = save_data.death_count
+		
+		if variable_struct_exists(save_data,"game_progress"){
+			if !is_undefined(save_data.game_progress){
+				global.progress = save_data.game_progress
+			}
+		}
+		
+		if variable_struct_exists(save_data,"death_count"){
+			if !is_undefined(save_data.death_count){
+				global.deaths = save_data.death_count
+			}
+		}
+		
+		if variable_struct_exists(save_data,"time"){
+			if !is_undefined(save_data.time){
+				global.time = save_data.time
+			}
+		}
 	}
 }

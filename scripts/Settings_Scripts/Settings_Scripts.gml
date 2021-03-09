@@ -98,6 +98,14 @@ function change_v_sync_mode(boolean) {
 	display_reset(0,global.settings.video.v_sync)
 }
 
+function change_sprite_animation(boolean) {
+	global.settings.video.sprite_animation=boolean
+}
+
+function change_room_transition(boolean) {
+	global.settings.video.room_transition=boolean
+}
+
 function change_gui_size(width,height,guisize) {
 	var display_height=height,display_width=width
 	var ideal_width=width;

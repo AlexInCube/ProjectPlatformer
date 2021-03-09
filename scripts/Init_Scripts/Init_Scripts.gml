@@ -6,11 +6,13 @@ global.settings = {
 		soundvolume: 0.5
 	},
 	video : {
-		fullscreen : false,
+		fullscreen : true,
 		width : display_get_width(),
 		height : display_get_height(),
 		v_sync : false,
-		game_speed: 60	
+		game_speed: 60,
+		sprite_animation: true,
+		room_transition: true
 	},
 	interface : {
 		guisize: 1,
@@ -67,8 +69,8 @@ function load_settings(){
 	}
 }
 
-function setup_level_names(){
-	global.level_names = ds_map_create()
+function setup_level_playlist(){
+	global.level_playlist = ds_grid_create(2,1)
 	level_add_name(rm_lvl1,"Обучение",1)
 	level_add_name(rm_lvl2,"Вступление",2)
 	level_add_name(rm_lvl3,"Прыжки",3)
@@ -87,4 +89,5 @@ function setup_level_names(){
 	level_add_name(rm_lvl16,"ААААААА!!!",16)
 	level_add_name(rm_lvl17,"Ямочки",17)
 	level_add_name(rm_lvl18,"Уберите этот пол",18)
+	ds_grid_resize(global.level_playlist,2,ds_grid_height(global.level_playlist)-1)
 }
