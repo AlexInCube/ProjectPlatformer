@@ -1,9 +1,9 @@
 function setup_default_settings() {
 global.settings = {
 	audio : {
-		mastervolume: 0.5,
-		musicvolume: 0.5,
-		soundvolume: 0.5
+		mastervolume: 0.3,
+		musicvolume: 0.3,
+		soundvolume: 0.3
 	},
 	video : {
 		fullscreen : true,
@@ -71,6 +71,9 @@ function load_settings(){
 
 function setup_level_playlist(){
 	global.level_playlist = ds_grid_create(2,1)
+	if debug_mode{
+		level_add_name(rm_lvl_test,"Уровень для разработчика",0)
+	}
 	level_add_name(rm_lvl1,"Обучение",1)
 	level_add_name(rm_lvl2,"Вступление",2)
 	level_add_name(rm_lvl3,"Прыжки",3)

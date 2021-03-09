@@ -1,10 +1,27 @@
 draw_set_halign(fa_left)
 draw_set_valign(fa_center)
 draw_text_shadow(12,GUIHEIGHT-20,gameversion_word+string(GM_version),fnt_main,1,c_black,c_gray,1)
+
+
 if menustate = menu_state.level_select{
+	var xx = (GUIWIDTH/2) - (((lvl_spr_size+cell_space)*10)/2)
+	var yy = 100
+	var pos = 0
 	for(var i = 0; i < ds_grid_height(ds_grid); i++){
-		var xx = (GUIWIDTH/2)-((ds_grid_height(ds_grid)*lvl_spr_size+cell_space)/2)+(i*lvl_spr_size+cell_space)
-		var yy = 100
+
+		if (pos mod 10) == 0
+		    {
+			   pos=0
+			   yy+=lvl_spr_size+cell_space
+			   xx=(GUIWIDTH/2) - (((lvl_spr_size+cell_space)*10)/2)+pos*(lvl_spr_size+cell_space)
+			}
+			else
+			{
+				xx=(GUIWIDTH/2) - (((lvl_spr_size+cell_space)*10)/2)+pos*(lvl_spr_size+cell_space)
+		
+			}
+			pos+=1 
+		
 		if i <= global.progress{
 			draw_sprite(lvl_spr,0,xx,yy)
 			draw_set_font(fnt_main)

@@ -7,9 +7,10 @@ enum menu_state{
 menustate = menu_state.level_select
 gameversion_word = find_keyword("game_version")
 
+var spr_w = sprite_get_width(spr_buttonmenu)/2
 ds_menu_main = create_ui_elements_list(
-	create_fancy_button((GUIWIDTH/2)-293,300,spr_buttonmenu,depth-1,find_keyword("settings"),open_settings),
-	create_fancy_button((GUIWIDTH/2)+200,300,spr_buttonmenu,depth-1,find_keyword("exit"),game_end),
+	create_fancy_button((GUIWIDTH/2)-200-spr_w,500,spr_buttonmenu,depth-1,find_keyword("settings"),open_settings),
+	create_fancy_button((GUIWIDTH/2)+200-spr_w,500,spr_buttonmenu,depth-1,find_keyword("exit"),game_end),
 )
 
 global.init_room = rm_lvl1
